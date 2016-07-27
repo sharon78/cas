@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import ph.com.cas.model.Account;
+import ph.com.cas.model.Ledger;
 import ph.com.cas.model.dto.LedgerDto;
 import ph.com.cas.repository.AccountRepository;
 import ph.com.cas.repository.LedgerRepository;
@@ -37,7 +38,7 @@ public class LedgerController {
 	return ledgerDto;
     }
 
-    @RequestMapping(value = "/lowdate/{lowDateString}/highdate/{highDateString}", method = RequestMethod.GET)
+    @RequestMapping(value = "/journal/journaldate/between[{lowDateString},{highDateString}]", method = RequestMethod.GET)
     @ResponseBody
     public LedgerDto listLedgerBetweenDates(@PathVariable String lowDateString, @PathVariable String highDateString)
 	    throws ParseException {
@@ -54,13 +55,23 @@ public class LedgerController {
 
 	List<Account> accounts = accountRepository.findAll();
 
+	LOG.info(">>> accounts >" + accounts.size());
+
 	for (Account account : accounts) {
-	    account.setLedgerAccounts(ledgerRepository.findAllBetweenDates(account, lowDate, highDate));
+	    List<Ledger> ledgers = ledgerRepository.findAllBetweenDates(account.getAccountCode(), lowDate, highDate);
+	    LOG.info(">>> ledgers >" + ledgers.size());
+	    account.setJournals(ledgers);
 	}
 
-	// ledgerDto.setLedger(accounts);
+	ledgerDto.setAccounts(accounts);
 
 	return ledgerDto;
+    }
+
+    @RequestMapping(value = "/journal/journaldate/month[{month}]", method = RequestMethod.GET)
+    @ResponseBody
+    public LedgerDto listLedgerForMonth() {
+	return null;
     }
 
     @Autowired

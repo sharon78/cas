@@ -21,6 +21,8 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
 
 import ph.com.cas.enums.EntryTransaction;
 
@@ -37,6 +39,7 @@ public class Journal
     @Column(name = "SEQ", nullable = false)
     private String seq;
 
+    @Temporal(TemporalType.DATE)
     @Column(name = "JOURNAL_DATE", nullable = false)
     private Date journalDate;
 

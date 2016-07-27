@@ -15,8 +15,11 @@ public interface LedgerRepository
 
     List<Ledger> findByAccount(Account account);
 
-    @Query("from Ledger l where (l.journalEntry.journal.journalDate between :lowDate and :highDate) and l.account=:account")
-    List<Ledger> findAllBetweenDates(@Param("account") Account account, @Param("lowDate") Date lowDate,
+    @Query("from Ledger l where (l.journalEntry.journal.journalDate between :lowDate and :highDate) and l.account.accountCode=:accountCode")
+    List<Ledger> findAllByMonth();
+
+    @Query("from Ledger l where (l.journalEntry.journal.journalDate between :lowDate and :highDate) and l.account.accountCode=:accountCode")
+    List<Ledger> findAllBetweenDates(@Param("accountCode") String accountCode, @Param("lowDate") Date lowDate,
 	    @Param("highDate") Date highDate);
 
 }

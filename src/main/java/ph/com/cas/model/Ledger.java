@@ -13,6 +13,8 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
 import javax.persistence.Transient;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
@@ -51,6 +53,7 @@ public class Ledger
     private long journalId;
 
     @Transient
+    @Temporal(TemporalType.DATE)
     private Date journalDate;
 
     @Transient

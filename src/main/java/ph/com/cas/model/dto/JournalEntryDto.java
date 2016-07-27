@@ -3,10 +3,14 @@ package ph.com.cas.model.dto;
 import java.util.Date;
 import java.util.Map;
 
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
+
 public class JournalEntryDto {
 
     private String templateCode;
     private Map<String, String> info;
+    @Temporal(TemporalType.DATE)
     private Date journalDate;
     private String journalDescription;
     private double amount;

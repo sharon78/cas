@@ -1,6 +1,5 @@
 package ph.com.cas.algorithm;
 
-import java.util.Date;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -33,7 +32,7 @@ public class LedgerSpot {
 	SequenceGenerator.newSeq();
 
 	Journal journal = new Journal();
-	journal.setJournalDate(new Date());
+	journal.setJournalDate(journalDto.getJournalDate());
 	journal.setJournalDescription(journalDto.getJournalDescription());
 	journal.setSeq("01");
 

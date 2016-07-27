@@ -17,6 +17,7 @@ import javax.persistence.OneToOne;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
+import javax.persistence.Transient;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
@@ -55,9 +56,13 @@ public class Account
     @OneToMany(mappedBy = "account")
     private Set<JournalEntry> journalEntries;
 
-    @OneToMany(mappedBy = "account")
-    private List<Ledger> ledgerAccounts;
+    @Transient
+    private int journalsRecno;
 
+    @OneToMany(mappedBy = "account")
+    private List<Ledger> journals;
+
+    @JsonIgnore
     @OneToOne(mappedBy = "account")
     private AccountingTemplateDetail accountingTemplateDetails;
 
@@ -93,8 +98,8 @@ public class Account
 	return journalEntries;
     }
 
-    public List<Ledger> getLedgerAccounts() {
-	return ledgerAccounts;
+    public List<Ledger> getJournals() {
+	return journals;
     }
 
     public AccountingTemplateDetail getAccountingTemplateDetails() {
@@ -133,12 +138,21 @@ public class Account
 	this.journalEntries = journalEntries;
     }
 
-    public void setLedgerAccounts(List<Ledger> ledgerAccounts) {
-	this.ledgerAccounts = ledgerAccounts;
+    public void setJournals(List<Ledger> journals) {
+	this.journals = journals;
     }
 
     public void setAccountingTemplateDetails(AccountingTemplateDetail accountingTemplateDetails) {
 	this.accountingTemplateDetails = accountingTemplateDetails;
+    }
+
+    public int getJournalsRecno() {
+	journalsRecno = journals.size();
+	return journalsRecno;
+    }
+
+    public void setJournalsRecno(int journalsRecno) {
+	this.journalsRecno = journalsRecno;
     }
 
 }
