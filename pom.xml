@@ -6,7 +6,6 @@
 	<groupId>ph.com.cas</groupId>
 	<artifactId>cas</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
 
 	<name>cas</name>
 	<description>core accounting system</description>

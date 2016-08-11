@@ -11,11 +11,12 @@ import org.springframework.boot.test.SpringApplicationConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
 
-import ph.com.cas.model.Account;
-import ph.com.cas.repository.AccountRepository;
+import ph.com.amot.erp.accounting.CasApplication;
+import ph.com.amot.erp.accounting.model.Account;
+import ph.com.amot.erp.accounting.repository.AccountRepository;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@SpringApplicationConfiguration(classes = CasApplication.class)
+@SpringApplicationConfiguration(classes = ERPApplication.class)
 @WebAppConfiguration
 public class CasApplicationTests {
 
