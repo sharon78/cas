@@ -1,0 +1,1509 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- open in microsoft excel to edit the fields -->
+<accounts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<account seq="00001" effdate="07-30-2016" isgrouptitle="true" ver="1">
+		<code>1</code>
+		<codecref>0</codecref>
+		<title>CURRENT ASSETS</title>
+		<desc>n/a</desc>
+		<level>0</level>
+	</account>
+	<account seq="00002" effdate="07-30-2016" isgrouptitle="true" ver="1">
+		<code>2</code>
+		<codecref>0</codecref>
+		<title>Cash in Bank-Local Currency</title>
+		<desc>n/a</desc>
+		<level>1</level>
+	</account>
+	<account seq="00003" effdate="07-30-2016" isgrouptitle="true" ver="1">
+		<code>3</code>
+		<codecref>0</codecref>
+		<title>Cash on Hand</title>
+		<desc>n/a</desc>
+		<level>1</level>
+	</account>
+	<account seq="00004" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>102</code>
+		<codecref>0</codecref>
+		<title>Cash-Collecting Officers</title>
+		<desc>n/a</desc>
+		<level>2</level>
+	</account>
+	<account seq="00005" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>103</code>
+		<codecref>0</codecref>
+		<title>Cash-Disbursing Officers</title>
+		<desc>n/a</desc>
+		<level>2</level>
+	</account>
+	<account seq="00006" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>104</code>
+		<codecref>0</codecref>
+		<title>Petty Cash Fund</title>
+		<desc>n/a</desc>
+		<level>2</level>
+	</account>
+	<account seq="00007" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>106</code>
+		<codecref>0</codecref>
+		<title>Cash-Disbursing Officers</title>
+		<desc>n/a</desc>
+		<level>2</level>
+	</account>
+	<account seq="00008" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>108</code>
+		<codecref>0</codecref>
+		<title>Cash in National Treasury - MDS Account</title>
+		<desc>n/a</desc>
+		<level>2</level>
+	</account>
+	<account seq="00009" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>111</code>
+		<codecref>0</codecref>
+		<title>Cash in Bank-Local Currency,Current Account</title>
+		<desc>n/a</desc>
+		<level>2</level>
+	</account>
+	<account seq="00010" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>112</code>
+		<codecref>0</codecref>
+		<title>Cash in Bank-Local Currency,Savings Account</title>
+		<desc>n/a</desc>
+		<level>2</level>
+	</account>
+	<account seq="00011" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>113</code>
+		<codecref>0</codecref>
+		<title>Cash in Bank-Local Currency,Time Deposit</title>
+		<desc>n/a</desc>
+		<level>2</level>
+	</account>
+	<account seq="00012" effdate="07-30-2016" isgrouptitle="true" ver="1">
+		<code>4</code>
+		<codecref>0</codecref>
+		<title>Cash in Bank-Foreign Currency</title>
+		<desc>n/a</desc>
+		<level>1</level>
+	</account>
+	<account seq="00013" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>116</code>
+		<codecref>0</codecref>
+		<title>Savings Account</title>
+		<desc>n/a</desc>
+		<level>1</level>
+	</account>
+	<account seq="00014" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>117</code>
+		<codecref>0</codecref>
+		<title>Time Deposit</title>
+		<desc>n/a</desc>
+		<level>1</level>
+	</account>
+	<account seq="00015" effdate="07-30-2016" isgrouptitle="true" ver="1">
+		<code>5</code>
+		<codecref>0</codecref>
+		<title>RECEIVABLES</title>
+		<desc>n/a</desc>
+		<level>0</level>
+	</account>
+	<account seq="00016" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>121</code>
+		<codecref>0</codecref>
+		<title>Accounts Receivable</title>
+		<desc>n/a</desc>
+		<level>1</level>
+	</account>
+	<account seq="00017" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>122</code>
+		<codecref>0</codecref>
+		<title>Notes Receivable</title>
+		<desc>n/a</desc>
+		<level>1</level>
+	</account>
+	<account seq="00018" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>123</code>
+		<codecref>0</codecref>
+		<title>Due from Officers and Employees</title>
+		<desc>n/a</desc>
+		<level>1</level>
+	</account>
+	<account seq="00019" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>129</code>
+		<codecref>0</codecref>
+		<title>Interest Receivable</title>
+		<desc>n/a</desc>
+		<level>1</level>
+	</account>
+	<account seq="00020" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>131</code>
+		<codecref>0</codecref>
+		<title>Due from National Treasury</title>
+		<desc>n/a</desc>
+		<level>1</level>
+	</account>
+	<account seq="00021" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>136</code>
+		<codecref>0</codecref>
+		<title>Due from National Gov't Agencies</title>
+		<desc>n/a</desc>
+		<level>1</level>
+	</account>
+	<account seq="00022" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>137</code>
+		<codecref>0</codecref>
+		<title>Due from GOCCS</title>
+		<desc>n/a</desc>
+		<level>1</level>
+	</account>
+	<account seq="00023" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>138</code>
+		<codecref>0</codecref>
+		<title>Due from Local Gov't Units</title>
+		<desc>n/a</desc>
+		<level>1</level>
+	</account>
+	<account seq="00024" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>146</code>
+		<codecref>0</codecref>
+		<title>Receivables-Disallowances/Charges</title>
+		<desc>n/a</desc>
+		<level>1</level>
+	</account>
+	<account seq="00025" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>148</code>
+		<codecref>0</codecref>
+		<title>Cash Advance</title>
+		<desc>n/a</desc>
+		<level>1</level>
+	</account>
+	<account seq="00026" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>149</code>
+		<codecref>0</codecref>
+		<title>Other Receivables</title>
+		<desc>n/a</desc>
+		<level>1</level>
+	</account>
+	<account seq="00027" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>301</code>
+		<codecref>0</codecref>
+		<title>Allowance for Doubtful Accts</title>
+		<desc>n/a</desc>
+		<level>1</level>
+	</account>
+	<account seq="00028" effdate="07-30-2016" isgrouptitle="true" ver="1">
+		<code>6</code>
+		<codecref>0</codecref>
+		<title>INVENTORIES</title>
+		<desc>n/a</desc>
+		<level>0</level>
+	</account>
+	<account seq="00029" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>154</code>
+		<codecref>0</codecref>
+		<title>Merchandise Inventory</title>
+		<desc>n/a</desc>
+		<level>1</level>
+	</account>
+	<account seq="00030" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>155</code>
+		<codecref>0</codecref>
+		<title>Office Supplies Inventory</title>
+		<desc>n/a</desc>
+		<level>1</level>
+	</account>
+	<account seq="00031" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>156</code>
+		<codecref>0</codecref>
+		<title>Accountable Forms Inventory</title>
+		<desc>n/a</desc>
+		<level>1</level>
+	</account>
+	<account seq="00032" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>165</code>
+		<codecref>0</codecref>
+		<title>Other Supplies Inventory</title>
+		<desc>n/a</desc>
+		<level>1</level>
+	</account>
+	<account seq="00033" effdate="07-30-2016" isgrouptitle="true" ver="1">
+		<code>7</code>
+		<codecref>0</codecref>
+		<title>PREPAYMENTS</title>
+		<desc>n/a</desc>
+		<level>0</level>
+	</account>
+	<account seq="00034" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>177</code>
+		<codecref>0</codecref>
+		<title>Prepaid Rent</title>
+		<desc>n/a</desc>
+		<level>1</level>
+	</account>
+	<account seq="00035" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>178</code>
+		<codecref>0</codecref>
+		<title>Prepaid Insurance</title>
+		<desc>n/a</desc>
+		<level>1</level>
+	</account>
+	<account seq="00036" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>180</code>
+		<codecref>0</codecref>
+		<title>Deposit on Letters of Credit</title>
+		<desc>n/a</desc>
+		<level>1</level>
+	</account>
+	<account seq="00037" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>181</code>
+		<codecref>0</codecref>
+		<title>Advances to Contractors</title>
+		<desc>n/a</desc>
+		<level>1</level>
+	</account>
+	<account seq="00038" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>182</code>
+		<codecref>0</codecref>
+		<title>Deferred Charges</title>
+		<desc>n/a</desc>
+		<level>1</level>
+	</account>
+	<account seq="00039" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>185</code>
+		<codecref>0</codecref>
+		<title>Other Prepaid Expenses</title>
+		<desc>n/a</desc>
+		<level>1</level>
+	</account>
+	<account seq="00040" effdate="07-30-2016" isgrouptitle="true" ver="1">
+		<code>8</code>
+		<codecref>0</codecref>
+		<title>OTHER CURRENT ASSETS</title>
+		<desc>n/a</desc>
+		<level>0</level>
+	</account>
+	<account seq="00041" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>186</code>
+		<codecref>0</codecref>
+		<title>Guaranty Deposits</title>
+		<desc>n/a</desc>
+		<level>1</level>
+	</account>
+	<account seq="00042" effdate="07-30-2016" isgrouptitle="true" ver="1">
+		<code>9</code>
+		<codecref>0</codecref>
+		<title>INVESTMENTS</title>
+		<desc>n/a</desc>
+		<level>0</level>
+	</account>
+	<account seq="00043" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>191</code>
+		<codecref>0</codecref>
+		<title>Investments in T-Bills</title>
+		<desc>n/a</desc>
+		<level>1</level>
+	</account>
+	<account seq="00044" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>192</code>
+		<codecref>0</codecref>
+		<title>Investments In Stocks</title>
+		<desc>n/a</desc>
+		<level>1</level>
+	</account>
+	<account seq="00045" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>197</code>
+		<codecref>0</codecref>
+		<title>Other Investment and Marketable Securities</title>
+		<desc>n/a</desc>
+		<level>1</level>
+	</account>
+	<account seq="00046" effdate="07-30-2016" isgrouptitle="true" ver="1">
+		<code>10</code>
+		<codecref>0</codecref>
+		<title>PROPERTY, PLANT &amp; EQUIPMENT</title>
+		<desc>n/a</desc>
+		<level>0</level>
+	</account>
+	<account seq="00047" effdate="07-30-2016" isgrouptitle="true" ver="1">
+		<code>11</code>
+		<codecref>0</codecref>
+		<title>LAND AND LAND IMPROVEMENTS</title>
+		<desc>n/a</desc>
+		<level>0</level>
+	</account>
+	<account seq="00048" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>201</code>
+		<codecref>0</codecref>
+		<title>Land</title>
+		<desc>n/a</desc>
+		<level>1</level>
+	</account>
+	<account seq="00049" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>202</code>
+		<codecref>0</codecref>
+		<title>Land Improvements</title>
+		<desc>n/a</desc>
+		<level>1</level>
+	</account>
+	<account seq="00050" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>302</code>
+		<codecref>0</codecref>
+		<title>Accum. Depreciation-Land Improvements</title>
+		<desc>n/a</desc>
+		<level>1</level>
+	</account>
+	<account seq="00051" effdate="07-30-2016" isgrouptitle="true" ver="1">
+		<code>12</code>
+		<codecref>0</codecref>
+		<title>BUILDINGS</title>
+		<desc>n/a</desc>
+		<level>0</level>
+	</account>
+	<account seq="00052" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>211</code>
+		<codecref>0</codecref>
+		<title>Office Buildings</title>
+		<desc>n/a</desc>
+		<level>1</level>
+	</account>
+	<account seq="00053" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>311</code>
+		<codecref>0</codecref>
+		<title>Accum. Depr.-Office Buildings</title>
+		<desc>n/a</desc>
+		<level>1</level>
+	</account>
+	<account seq="00054" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>215</code>
+		<codecref>0</codecref>
+		<title>Other Structures</title>
+		<desc>n/a</desc>
+		<level>1</level>
+	</account>
+	<account seq="00055" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>315</code>
+		<codecref>0</codecref>
+		<title>Accum. Depr.-Other Structures</title>
+		<desc>n/a</desc>
+		<level>1</level>
+	</account>
+	<account seq="00056" effdate="07-30-2016" isgrouptitle="true" ver="1">
+		<code>13</code>
+		<codecref>0</codecref>
+		<title>OFFICE EQUIPMENT, FURNITURE AND FIXTURES</title>
+		<desc>n/a</desc>
+		<level>0</level>
+	</account>
+	<account seq="00057" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>221</code>
+		<codecref>0</codecref>
+		<title>Office Equipment</title>
+		<desc>n/a</desc>
+		<level>1</level>
+	</account>
+	<account seq="00058" effdate="07-30-2016" isgrouptitle="true" ver="1">
+		<code>14</code>
+		<codecref>0</codecref>
+		<title>Accum. Depr.-Office Equipment</title>
+		<desc>n/a</desc>
+		<level>0</level>
+	</account>
+	<account seq="00059" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>222</code>
+		<codecref>0</codecref>
+		<title>Furniture and Fixtures</title>
+		<desc>n/a</desc>
+		<level>1</level>
+	</account>
+	<account seq="00060" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>322</code>
+		<codecref>0</codecref>
+		<title>Accum. Depr.-Furniture &amp; Fixtures</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00061" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>223</code>
+		<codecref>0</codecref>
+		<title>IT Equipment &amp; Software</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00062" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>323</code>
+		<codecref>0</codecref>
+		<title>Accum. Depr.-IT Equipment</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00063" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>224</code>
+		<codecref>0</codecref>
+		<title>Library Books</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00064" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>324</code>
+		<codecref>0</codecref>
+		<title>Accum. Depr.-Library Books</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00065" effdate="07-30-2016" isgrouptitle="true" ver="1">
+		<code>15</code>
+		<codecref>0</codecref>
+		<title>MACHINERIES AND EQUIPMENT</title>
+		<desc>n/a</desc>
+		<level>0</level>
+	</account>
+	<account seq="00066" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>229</code>
+		<codecref>0</codecref>
+		<title>Communication Equipment</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00067" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>329</code>
+		<codecref>0</codecref>
+		<title>Accum. Depr.-Communication Equipt</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00068" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>231</code>
+		<codecref>0</codecref>
+		<title>Fire Fighting Equipment &amp; Accessories</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00069" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>331</code>
+		<codecref>0</codecref>
+		<title>Accum. Depr.-Fire Fighting Equipt. &amp; Acc.</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00070" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>233</code>
+		<codecref>0</codecref>
+		<title>Medical, Dental &amp; Laboratory Equipment</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00071" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>333</code>
+		<codecref>0</codecref>
+		<title>Accum. Depr.-Medical, Dental &amp; Laboratory Equipment</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00072" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>236</code>
+		<codecref>0</codecref>
+		<title>Technical &amp; Scientific Equipment</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00073" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>336</code>
+		<codecref>0</codecref>
+		<title>Accum. Depr.-Technical &amp; Scientific Equipt.</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00074" effdate="07-30-2016" isgrouptitle="true" ver="1">
+		<code>16</code>
+		<codecref>0</codecref>
+		<title>TRANSPORTATION EQUIPMENT</title>
+		<desc>n/a</desc>
+		<level>0</level>
+	</account>
+	<account seq="00075" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>241</code>
+		<codecref>0</codecref>
+		<title>Motor Vehicles</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00076" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>341</code>
+		<codecref>0</codecref>
+		<title>Accum. Depr.-Motor Vehicles</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00077" effdate="07-30-2016" isgrouptitle="true" ver="1">
+		<code>17</code>
+		<codecref>0</codecref>
+		<title>OTHER PROPERTY , PLANT &amp; EQUIPMENT</title>
+		<desc>n/a</desc>
+		<level>0</level>
+	</account>
+	<account seq="00078" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>250</code>
+		<codecref>0</codecref>
+		<title>Other Property, Plant &amp; Equiptment</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00079" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>350</code>
+		<codecref>0</codecref>
+		<title>Accum. Depreciation-Other PPE (Other Social Services)</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00080" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>264</code>
+		<codecref>0</codecref>
+		<title>Construction in Progress</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00081" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>283</code>
+		<codecref>0</codecref>
+		<title>Arts, Archeological Specimen and Other Exhibits</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00082" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>284</code>
+		<codecref>0</codecref>
+		<title>Items in Transit</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00083" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>290</code>
+		<codecref>0</codecref>
+		<title>Other Assets</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00084" effdate="07-30-2016" isgrouptitle="true" ver="1">
+		<code>18</code>
+		<codecref>0</codecref>
+		<title>LIABILITIES</title>
+		<desc>n/a</desc>
+		<level>0</level>
+	</account>
+	<account seq="00085" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>401</code>
+		<codecref>0</codecref>
+		<title>Accounts Payable- MOOE</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00086" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>403</code>
+		<codecref>0</codecref>
+		<title>Due to Officers &amp; Employees</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00087" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>412</code>
+		<codecref>0</codecref>
+		<title>Due to BIR</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00088" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>413</code>
+		<codecref>0</codecref>
+		<title>Due to SSS</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00089" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>414</code>
+		<codecref>0</codecref>
+		<title>Due to Pag-ibig</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00090" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>415</code>
+		<codecref>0</codecref>
+		<title>Due to Philhealth-Medicare</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00091" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>427</code>
+		<codecref>0</codecref>
+		<title>Performance/Bidders/Bail Bonds Pay</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00092" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>439</code>
+		<codecref>0</codecref>
+		<title>Other Payables</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00093" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>455</code>
+		<codecref>0</codecref>
+		<title>Other Deferred Credits</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00094" effdate="07-30-2016" isgrouptitle="true" ver="1">
+		<code>19</code>
+		<codecref>0</codecref>
+		<title>GOVERNMENT EQUITY</title>
+		<desc>n/a</desc>
+		<level>0</level>
+	</account>
+	<account seq="00095" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>510</code>
+		<codecref>0</codecref>
+		<title>Retained Earnings</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00096" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>684</code>
+		<codecref>0</codecref>
+		<title>Prior Year Adjustment</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00097" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>501</code>
+		<codecref>0</codecref>
+		<title>Government Equity</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00098" effdate="07-30-2016" isgrouptitle="true" ver="1">
+		<code>20</code>
+		<codecref>0</codecref>
+		<title>TOTAL LIABILITIES AND SURPLUS</title>
+		<desc>n/a</desc>
+		<level>0</level>
+	</account>
+	<account seq="00099" effdate="07-30-2016" isgrouptitle="true" ver="1">
+		<code>21</code>
+		<codecref>0</codecref>
+		<title>INCOME</title>
+		<desc>n/a</desc>
+		<level>0</level>
+	</account>
+	<account seq="00100" effdate="07-30-2016" isgrouptitle="true" ver="1">
+		<code>22</code>
+		<codecref>0</codecref>
+		<title>Service Income</title>
+		<desc>n/a</desc>
+		<level>0</level>
+	</account>
+	<account seq="00101" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>622</code>
+		<codecref>0</codecref>
+		<title>Seminar Fees</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00102" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>618</code>
+		<codecref>0</codecref>
+		<title>Library Fees</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00103" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>623</code>
+		<codecref>0</codecref>
+		<title>Terminal Fees</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00104" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>628</code>
+		<codecref>0</codecref>
+		<title>Other Service Income</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00105" effdate="07-30-2016" isgrouptitle="true" ver="1">
+		<code>23</code>
+		<codecref>0</codecref>
+		<title>Business Income</title>
+		<desc>n/a</desc>
+		<level>0</level>
+	</account>
+	<account seq="00106" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>640</code>
+		<codecref>0</codecref>
+		<title>Parking Fees</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00107" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>641</code>
+		<codecref>0</codecref>
+		<title>Printing &amp; Publication Sales</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00108" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>642</code>
+		<codecref>0</codecref>
+		<title>Rental Income</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00109" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>643</code>
+		<codecref>0</codecref>
+		<title>Sales Revenue</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00110" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>648</code>
+		<codecref>0</codecref>
+		<title>Other Business Income</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00111" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>649</code>
+		<codecref>0</codecref>
+		<title>Fines &amp; Penalties- Business Income</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00112" effdate="07-30-2016" isgrouptitle="true" ver="1">
+		<code>24</code>
+		<codecref>0</codecref>
+		<title>Other Income</title>
+		<desc>n/a</desc>
+		<level>0</level>
+	</account>
+	<account seq="00113" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>661</code>
+		<codecref>0</codecref>
+		<title>Dividend on Stocks</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00114" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>662</code>
+		<codecref>0</codecref>
+		<title>Income from Grants &amp; Donation</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00115" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>663</code>
+		<codecref>0</codecref>
+		<title>Insurance Income</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00116" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>664</code>
+		<codecref>0</codecref>
+		<title>Interest Income</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00117" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>678</code>
+		<codecref>0</codecref>
+		<title>Miscellaneous Income</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00118" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>681</code>
+		<codecref>0</codecref>
+		<title>Gain/Loss on Foreign Exchange</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00119" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>682</code>
+		<codecref>0</codecref>
+		<title>Gain/Loss on Sale of Disposed Assets</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00120" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>683</code>
+		<codecref>0</codecref>
+		<title>Gain on Sale of Securities</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00121" effdate="07-30-2016" isgrouptitle="true" ver="1">
+		<code>25</code>
+		<codecref>0</codecref>
+		<title>Subsidy Income</title>
+		<desc>n/a</desc>
+		<level>0</level>
+	</account>
+	<account seq="00122" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>651</code>
+		<codecref>0</codecref>
+		<title>Subsidy Income from National Government</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00123" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>652</code>
+		<codecref>0</codecref>
+		<title>Subsidy from Other National Gov't. Agencies</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00124" effdate="07-30-2016" isgrouptitle="true" ver="1">
+		<code>26</code>
+		<codecref>0</codecref>
+		<title>EXPENDITURES</title>
+		<desc>n/a</desc>
+		<level>0</level>
+	</account>
+	<account seq="00125" effdate="07-30-2016" isgrouptitle="true" ver="1">
+		<code>27</code>
+		<codecref>0</codecref>
+		<title>PERSONAL SERVICES</title>
+		<desc>n/a</desc>
+		<level>0</level>
+	</account>
+	<account seq="00126" effdate="07-30-2016" isgrouptitle="true" ver="1">
+		<code>28</code>
+		<codecref>0</codecref>
+		<title>Salaries &amp; Wages</title>
+		<desc>n/a</desc>
+		<level>0</level>
+	</account>
+	<account seq="00127" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>701</code>
+		<codecref>0</codecref>
+		<title>Salaries and Wages- Regular</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00128" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>705</code>
+		<codecref>0</codecref>
+		<title>Salaries and Wages- Casual/Contractual</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00129" effdate="07-30-2016" isgrouptitle="true" ver="1">
+		<code>29</code>
+		<codecref>0</codecref>
+		<title>Other Compensation</title>
+		<desc>n/a</desc>
+		<level>0</level>
+	</account>
+	<account seq="00130" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>711</code>
+		<codecref>0</codecref>
+		<title>Personnel Economic Relief  Allowance (PERA)</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00131" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>712</code>
+		<codecref>0</codecref>
+		<title>Additional Compensation</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00132" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>713</code>
+		<codecref>0</codecref>
+		<title>Representation Allowance (RA)</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00133" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>714</code>
+		<codecref>0</codecref>
+		<title>Transportation Allowance (TA)</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00134" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>715</code>
+		<codecref>0</codecref>
+		<title>Clothing/Uniform Allowance</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00135" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>716</code>
+		<codecref>0</codecref>
+		<title>Subsistence Allowance</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00136" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>717</code>
+		<codecref>0</codecref>
+		<title>Productivity Incentive Bonus</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00137" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>719</code>
+		<codecref>0</codecref>
+		<title>Other Bonuses and Allowances</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00138" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>720</code>
+		<codecref>0</codecref>
+		<title>Honoraria</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00139" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>722</code>
+		<codecref>0</codecref>
+		<title>Longevity Pay</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00140" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>723</code>
+		<codecref>0</codecref>
+		<title>Overtime and Night Pay</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00141" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>724</code>
+		<codecref>0</codecref>
+		<title>Cash Gift</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00142" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>725</code>
+		<codecref>0</codecref>
+		<title>Year End Bonus</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00143" effdate="07-30-2016" isgrouptitle="true" ver="1">
+		<code>30</code>
+		<codecref>0</codecref>
+		<title>Personnel Benefits Contribution</title>
+		<desc>n/a</desc>
+		<level>0</level>
+	</account>
+	<account seq="00144" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>731</code>
+		<codecref>0</codecref>
+		<title>Life &amp; Retirement Insurance Contributions</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00145" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>732</code>
+		<codecref>0</codecref>
+		<title>PAG-IBIG Contributions</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00146" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>733</code>
+		<codecref>0</codecref>
+		<title>PHILHEALTH Contributions</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00147" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>734</code>
+		<codecref>0</codecref>
+		<title>ECC Contributions</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00148" effdate="07-30-2016" isgrouptitle="true" ver="1">
+		<code>31</code>
+		<codecref>0</codecref>
+		<title>Other Personnel Benefits</title>
+		<desc>n/a</desc>
+		<level>0</level>
+	</account>
+	<account seq="00149" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>738</code>
+		<codecref>0</codecref>
+		<title>Pension Benefits - Civilian</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00150" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>740</code>
+		<codecref>0</codecref>
+		<title>Retirement Benefits - Civilian</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00151" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>742</code>
+		<codecref>0</codecref>
+		<title>Terminal Leave Benefits</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00152" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>743</code>
+		<codecref>0</codecref>
+		<title>Health Workers Benefits</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00153" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>749</code>
+		<codecref>0</codecref>
+		<title>Other Personnel Benefits</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00154" effdate="07-30-2016" isgrouptitle="true" ver="1">
+		<code>32</code>
+		<codecref>0</codecref>
+		<title>MAINTENANCE AND OTHER OPERATING EXPENSES</title>
+		<desc>n/a</desc>
+		<level>0</level>
+	</account>
+	<account seq="00155" effdate="07-30-2016" isgrouptitle="true" ver="1">
+		<code>33</code>
+		<codecref>0</codecref>
+		<title>Travelling Expense</title>
+		<desc>n/a</desc>
+		<level>0</level>
+	</account>
+	<account seq="00156" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>751</code>
+		<codecref>0</codecref>
+		<title>Travelling Expense - Local</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00157" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>752</code>
+		<codecref>0</codecref>
+		<title>Travelling Expense - Foreign</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00158" effdate="07-30-2016" isgrouptitle="true" ver="1">
+		<code>34</code>
+		<codecref>0</codecref>
+		<title>Training and Scholarship Expenses</title>
+		<desc>n/a</desc>
+		<level>0</level>
+	</account>
+	<account seq="00159" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>753</code>
+		<codecref>0</codecref>
+		<title>Training Expenses</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00160" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>754</code>
+		<codecref>0</codecref>
+		<title>Scholarship Expenses</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00161" effdate="07-30-2016" isgrouptitle="true" ver="1">
+		<code>35</code>
+		<codecref>0</codecref>
+		<title>Supplies and Materials Expenses</title>
+		<desc>n/a</desc>
+		<level>0</level>
+	</account>
+	<account seq="00162" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>755</code>
+		<codecref>0</codecref>
+		<title>Office Supplies Expenses</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00163" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>756</code>
+		<codecref>0</codecref>
+		<title>Accountable Forms Expenses</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00164" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>759</code>
+		<codecref>0</codecref>
+		<title>Drugs and Medicines Expenses</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00165" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>760</code>
+		<codecref>0</codecref>
+		<title>Medical, Dental and Laboratory Supplies Expenses</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00166" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>761</code>
+		<codecref>0</codecref>
+		<title>Gasoline, Oil and Lubricants</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00167" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>762</code>
+		<codecref>0</codecref>
+		<title>Agricultural Supplies Expense</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00168" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>763</code>
+		<codecref>0</codecref>
+		<title>Textbooks and Instructional Materials</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00169" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>765</code>
+		<codecref>0</codecref>
+		<title>Other Supplies Expenses</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00170" effdate="07-30-2016" isgrouptitle="true" ver="1">
+		<code>36</code>
+		<codecref>0</codecref>
+		<title>Utility Expenses</title>
+		<desc>n/a</desc>
+		<level>0</level>
+	</account>
+	<account seq="00171" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>766</code>
+		<codecref>0</codecref>
+		<title>Water Expenses</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00172" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>767</code>
+		<codecref>0</codecref>
+		<title>Electricity Expenses</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00173" effdate="07-30-2016" isgrouptitle="true" ver="1">
+		<code>37</code>
+		<codecref>0</codecref>
+		<title>Communication Expenses</title>
+		<desc>n/a</desc>
+		<level>0</level>
+	</account>
+	<account seq="00174" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>771</code>
+		<codecref>0</codecref>
+		<title>Postage and Deliveries</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00175" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>772</code>
+		<codecref>0</codecref>
+		<title>Telephone Expenses- Landline</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00176" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>773</code>
+		<codecref>0</codecref>
+		<title>Telephone Expenses- Mobile</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00177" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>774</code>
+		<codecref>0</codecref>
+		<title>Internet Expenses</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00178" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>775</code>
+		<codecref>0</codecref>
+		<title>Cable, Satellite, Telegraph and Radio Expenses</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00179" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>778</code>
+		<codecref>0</codecref>
+		<title>Membership Dues and Contributions to Organizations</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00180" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>780</code>
+		<codecref>0</codecref>
+		<title>Advertising Expenses</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00181" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>781</code>
+		<codecref>0</codecref>
+		<title>Printing and Binding Expenses</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00182" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>782</code>
+		<codecref>0</codecref>
+		<title>Rent Expenses</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00183" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>783</code>
+		<codecref>0</codecref>
+		<title>Representation Expenses</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00184" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>786</code>
+		<codecref>0</codecref>
+		<title>Subscriptions Expenses</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00185" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>787</code>
+		<codecref>0</codecref>
+		<title>Survey Expenses</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00186" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>788</code>
+		<codecref>0</codecref>
+		<title>Rewards &amp; Other Claims</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00187" effdate="07-30-2016" isgrouptitle="true" ver="1">
+		<code>38</code>
+		<codecref>0</codecref>
+		<title>Professional Expenses</title>
+		<desc>n/a</desc>
+		<level>0</level>
+	</account>
+	<account seq="00188" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>791</code>
+		<codecref>0</codecref>
+		<title>Legal Services</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00189" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>792</code>
+		<codecref>0</codecref>
+		<title>Auditing Services</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00190" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>793</code>
+		<codecref>0</codecref>
+		<title>Consultancy Services</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00191" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>794</code>
+		<codecref>0</codecref>
+		<title>Environment/Sanitary Services</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00192" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>795</code>
+		<codecref>0</codecref>
+		<title>General Services</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00193" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>796</code>
+		<codecref>0</codecref>
+		<title>Janitorial Services</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00194" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>797</code>
+		<codecref>0</codecref>
+		<title>Security Services</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00195" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>799</code>
+		<codecref>0</codecref>
+		<title>Other Professional Services</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00196" effdate="07-30-2016" isgrouptitle="true" ver="1">
+		<code>39</code>
+		<codecref>0</codecref>
+		<title>Repair &amp; Maintenance</title>
+		<desc>n/a</desc>
+		<level>0</level>
+	</account>
+	<account seq="00197" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>802</code>
+		<codecref>0</codecref>
+		<title>Repairs &amp; Maintenance-Land Improvements</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00198" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>811</code>
+		<codecref>0</codecref>
+		<title>Repairs &amp; Maintenance-Office Building</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00199" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>815</code>
+		<codecref>0</codecref>
+		<title>Repairs &amp; Maintenance-Other Structures</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00200" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>821</code>
+		<codecref>0</codecref>
+		<title>Repairs &amp; Maint. - Office Equipment</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00201" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>822</code>
+		<codecref>0</codecref>
+		<title>Repairs &amp; Maintenance-Furniture &amp; Fixtures</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00202" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>823</code>
+		<codecref>0</codecref>
+		<title>Repairs &amp; Maint. - IT Equipment &amp; Software</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00203" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>826</code>
+		<codecref>0</codecref>
+		<title>Repairs &amp; Maint. - Machinery</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00204" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>829</code>
+		<codecref>0</codecref>
+		<title>Repairs &amp; Maint. - Communication Equipment</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00205" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>831</code>
+		<codecref>0</codecref>
+		<title>Repairs &amp; Maint. - Firefighting Equip. &amp; Access.</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00206" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>836</code>
+		<codecref>0</codecref>
+		<title>Repairs &amp; Maint. - Technical &amp; Scientific Equip.</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00207" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>841</code>
+		<codecref>0</codecref>
+		<title>Repair &amp; Maintenance- Motor Vehicles</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00208" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>850</code>
+		<codecref>0</codecref>
+		<title>Repairs &amp; Maint. - Other Property, Plant &amp; Equip</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00209" effdate="07-30-2016" isgrouptitle="true" ver="1">
+		<code>40</code>
+		<codecref>0</codecref>
+		<title>Subsidies &amp; Donations</title>
+		<desc>n/a</desc>
+		<level>0</level>
+	</account>
+	<account seq="00210" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>878</code>
+		<codecref>0</codecref>
+		<title>Donations</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00211" effdate="07-30-2016" isgrouptitle="true" ver="1">
+		<code>41</code>
+		<codecref>0</codecref>
+		<title>Taxes, Insurance Premiums &amp; Other Fees</title>
+		<desc>n/a</desc>
+		<level>0</level>
+	</account>
+	<account seq="00212" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>891</code>
+		<codecref>0</codecref>
+		<title>Taxes Duties and Licenses</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00213" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>892</code>
+		<codecref>0</codecref>
+		<title>Fidelity Bond Premium</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00214" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>893</code>
+		<codecref>0</codecref>
+		<title>Insurance Premium</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00215" effdate="07-30-2016" isgrouptitle="true" ver="1">
+		<code>42</code>
+		<codecref>0</codecref>
+		<title>Non-Cash Expense</title>
+		<desc>n/a</desc>
+		<level>0</level>
+	</account>
+	<account seq="00216" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>901</code>
+		<codecref>0</codecref>
+		<title>Bad Debts Expense</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00217" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>902</code>
+		<codecref>0</codecref>
+		<title>Depreciation - Land Improvements</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00218" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>911</code>
+		<codecref>0</codecref>
+		<title>Depreciation - Office Buildings</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00219" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>915</code>
+		<codecref>0</codecref>
+		<title>Depreciation - Other Structures</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00220" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>921</code>
+		<codecref>0</codecref>
+		<title>Depreciation - Office Equipments</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00221" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>922</code>
+		<codecref>0</codecref>
+		<title>Depreciation - Furniture &amp; Fixtures</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00222" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>923</code>
+		<codecref>0</codecref>
+		<title>Depreciation - IT Equipment</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00223" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>924</code>
+		<codecref>0</codecref>
+		<title>Depreciation - Library Books</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00224" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>926</code>
+		<codecref>0</codecref>
+		<title>Depreciation - Machinery</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00225" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>929</code>
+		<codecref>0</codecref>
+		<title>Depreciation - Communication Equipment</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00226" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>931</code>
+		<codecref>0</codecref>
+		<title>Depreciation - Firefighting Eqpmt. &amp; Access.</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00227" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>933</code>
+		<codecref>0</codecref>
+		<title>Depreciation - Medical Equipment</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00228" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>936</code>
+		<codecref>0</codecref>
+		<title>Depreciation - Technical &amp; Scientific Equip.</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00229" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>941</code>
+		<codecref>0</codecref>
+		<title>Depreciation - Motor Vehicles</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00230" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>950</code>
+		<codecref>0</codecref>
+		<title>Depreciation - Other Property, Plant &amp; Equip.</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00231" effdate="07-30-2016" isgrouptitle="true" ver="1">
+		<code>43</code>
+		<codecref>0</codecref>
+		<title>Other Maintenance &amp; Operating Expenses</title>
+		<desc>n/a</desc>
+		<level>0</level>
+	</account>
+	<account seq="00232" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>961</code>
+		<codecref>0</codecref>
+		<title>Loss of Assets</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00233" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>969</code>
+		<codecref>0</codecref>
+		<title>Other Maintenance &amp; Operating Expenses</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00234" effdate="07-30-2016" isgrouptitle="true" ver="1">
+		<code>44</code>
+		<codecref>0</codecref>
+		<title>Financial Expenses</title>
+		<desc>n/a</desc>
+		<level>0</level>
+	</account>
+	<account seq="00235" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>971</code>
+		<codecref>0</codecref>
+		<title>Bank Charges</title>
+		<desc>n/a</desc>
+	</account>
+	<account seq="00236" effdate="07-30-2016" isgrouptitle="false" ver="1">
+		<code>979</code>
+		<codecref>0</codecref>
+		<title>Other Financial Charges</title>
+		<desc>n/a</desc>
+	</account>
+</accounts>

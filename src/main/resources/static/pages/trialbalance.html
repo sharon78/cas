@@ -1,0 +1,26 @@
+<!-- trialbalance.html -->
+<h2 class="sub-header">Trial Balance</h2>
+<div class="table-responsive" ng-controller="cntrl1">
+	<button type="button" class="btn btn-default" aria-label="Left Align"
+		ng-click="refresh()">
+		<span class="glyphicon glyphicon-refresh" aria-hidden="true"></span>
+	</button>
+	<table class="table table-condensed table-responsive">
+		<thead>
+			<tr>
+				<th>Account</th>
+				<th>Debit<br>{{trialBalances.totalDebit}}</th>
+				<th>Credit<br>{{trialBalances.totalCredit}}</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr ng-repeat="trialBalance in trialBalances.accounts | orderBy:'seq'">
+				<td class="hidden">{{trialBalance.seq}}</td>
+				<td style="padding-left:{{trialBalance.tab*5}}px">{{trialBalance.accountTitle}} (<i>{{trialBalance.accountCode}}</i>)</td>
+				<td>{{trialBalance.debitAmount}}</td>
+				<td>{{trialBalance.creditAmount}}</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
