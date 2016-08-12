@@ -16,9 +16,12 @@ import java.util.Set;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
+import javax.persistence.ForeignKey;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
@@ -52,6 +55,14 @@ public class Journal
     @OneToMany(mappedBy = "journal", fetch = FetchType.LAZY)
     private Set<Ledger> ledgerAccounts;
 
+    @ManyToOne
+    @JoinColumn(name = "COST_CENTER_ID", nullable = false, foreignKey = @ForeignKey(name = "FK_COST_CENTER_ID"))
+    private CostCenter costCenter;
+
+    @ManyToOne
+    @JoinColumn(name = "ACCOUNTING_PERIOD_ID", nullable = false, foreignKey = @ForeignKey(name = "FK_ACCOUNTING_PERIOD_ID"))
+    private AccountingPeriod accountingPeriod;
+
     public long getId() {
 	return id;
     }
@@ -76,6 +87,14 @@ public class Journal
 	return ledgerAccounts;
     }
 
+    public CostCenter getCostCenter() {
+	return costCenter;
+    }
+
+    public AccountingPeriod getAccountingPeriod() {
+	return accountingPeriod;
+    }
+
     public void setId(long id) {
 	this.id = id;
     }
@@ -98,6 +117,14 @@ public class Journal
 
     public void setLedgerAccounts(Set<Ledger> ledgerAccounts) {
 	this.ledgerAccounts = ledgerAccounts;
+    }
+
+    public void setCostCenter(CostCenter costCenter) {
+	this.costCenter = costCenter;
+    }
+
+    public void setAccountingPeriod(AccountingPeriod accountingPeriod) {
+	this.accountingPeriod = accountingPeriod;
     }
 
     public Boolean isJournalEntriesEqual() {

@@ -7,6 +7,7 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
+import javax.persistence.ForeignKey;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -35,22 +36,18 @@ public class JournalEntry
 
     @JsonIgnore
     @ManyToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name = "JOURNAL_ID", nullable = false)
+    @JoinColumn(name = "JOURNAL_ID", nullable = false, foreignKey = @ForeignKey(name = "FK_JOURNAL_ID"))
     private Journal journal;
 
     @JsonIgnore
     @ManyToOne
-    @JoinColumn(name = "ACCOUNT_CODE", nullable = false)
+    @JoinColumn(name = "ACCOUNT_CODE", nullable = false, foreignKey = @ForeignKey(name = "FK_ACCOUNT_CODE"))
     private Account account;
 
     @JsonIgnore
     @OneToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name = "LEDGER_ID", nullable = false)
+    @JoinColumn(name = "LEDGER_ID", nullable = false, foreignKey = @ForeignKey(name = "FK_LEDGER_ID"))
     private Ledger ledgerAccount;
-
-    @JsonIgnore
-    @OneToOne(mappedBy = "journalEntry")
-    private SubsidiaryDistribution subsidiaryDistribution;
 
     @Enumerated(EnumType.STRING)
     @Column(name = "ACCT_ENTRY", nullable = false)
@@ -88,10 +85,6 @@ public class JournalEntry
 	return ledgerAccount;
     }
 
-    public SubsidiaryDistribution getSubsidiaryDistribution() {
-	return subsidiaryDistribution;
-    }
-
     public EntryTransaction getTransaction() {
 	return transaction;
     }
@@ -120,23 +113,12 @@ public class JournalEntry
 	this.ledgerAccount = ledgerAccount;
     }
 
-    public void setSubsidiaryDistribution(SubsidiaryDistribution subsidiaryDistribution) {
-	this.subsidiaryDistribution = subsidiaryDistribution;
-    }
-
     public void setTransaction(EntryTransaction transaction) {
 	this.transaction = transaction;
     }
 
     public void setAmount(double amount) {
 	this.amount = amount;
-    }
-
-    @Override
-    public String toString() {
-	return "JournalEntry [id=" + id + ", seq=" + seq + ", journal=" + journal + ", account=" + account
-		+ ", ledgerAccount=" + ledgerAccount + ", subsidiaryDistribution=" + subsidiaryDistribution
-		+ ", transaction=" + transaction + ", amount=" + amount + "]";
     }
 
 }

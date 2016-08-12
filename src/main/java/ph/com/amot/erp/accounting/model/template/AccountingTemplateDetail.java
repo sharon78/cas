@@ -7,6 +7,7 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
+import javax.persistence.ForeignKey;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -35,7 +36,7 @@ public class AccountingTemplateDetail
 
     @JsonIgnore
     @OneToOne
-    @JoinColumn(name = "ACCT_ID", nullable = false)
+    @JoinColumn(name = "ACCT_ID", nullable = false, foreignKey = @ForeignKey(name = "FK_ACCT_ID"))
     private Account account;
 
     @Enumerated(EnumType.STRING)
@@ -44,7 +45,7 @@ public class AccountingTemplateDetail
 
     @JsonIgnore
     @ManyToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name = "TEMPLATE_ID")
+    @JoinColumn(name = "TEMPLATE_ID", foreignKey = @ForeignKey(name = "FK_TEMPLATE_ID"))
     private AccountingTemplate accountingTemplate;
 
     public long getId() {

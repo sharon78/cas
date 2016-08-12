@@ -3,6 +3,8 @@ package ph.com.amot.erp.accounting.algorithm;
 import java.util.HashSet;
 import java.util.Set;
 
+import org.springframework.stereotype.Component;
+
 import ph.com.amot.erp.accounting.enums.SequenceGroup;
 import ph.com.amot.erp.accounting.model.Journal;
 import ph.com.amot.erp.accounting.model.JournalEntry;
@@ -15,7 +17,8 @@ import ph.com.amot.erp.common.SequenceGenerator;
  * @since July 2016
  * @version 1.0
  */
-public class LedgerSpot {
+@Component
+public class LedgerWriter {
 
     private Set<JournalEntry> newJournalEntries;
 
@@ -34,8 +37,10 @@ public class LedgerSpot {
 	Journal journal = new Journal();
 	journal.setJournalDate(journalDto.getJournalDate());
 	journal.setJournalDescription(journalDto.getJournalDescription());
-	journal.setSeq("01");
+	SequenceGenerator.newSeq();
+	journal.setSeq(SequenceGenerator.getSeqNo(SequenceGroup.ONE));
 
+	SequenceGenerator.newSeq();
 	for (JournalEntry journalEntry : journalEntries) {
 	    Ledger ledger = new Ledger();
 	    ledger.setSeq(SequenceGenerator.getSeqNo(SequenceGroup.ONE));

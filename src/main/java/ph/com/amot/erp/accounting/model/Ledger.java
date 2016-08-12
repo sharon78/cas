@@ -6,6 +6,7 @@ import java.util.Date;
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.ForeignKey;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -36,12 +37,12 @@ public class Ledger
 
     @JsonIgnore
     @ManyToOne
-    @JoinColumn(name = "ACCT_ID")
+    @JoinColumn(name = "ACCT_ID", foreignKey = @ForeignKey(name = "FK_ACCT_ID"))
     private Account account;
 
     @JsonIgnore
     @ManyToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name = "JOURNAL_ID")
+    @JoinColumn(name = "JOURNAL_ID", foreignKey = @ForeignKey(name = "FK_JOURNAL_ID"))
     private Journal journal;
 
     @JsonIgnore

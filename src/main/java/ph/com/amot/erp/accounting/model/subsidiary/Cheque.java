@@ -7,117 +7,103 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 import ph.com.amot.erp.accounting.enums.SubsidiaryType;
-import ph.com.amot.erp.accounting.model.SubsidiaryDistribution;
 
 @SuppressWarnings("serial")
 @Entity
 @Table(name = "CHEQUE_REGISTER")
-public class Cheque implements Serializable {
+public class Cheque
+	implements Serializable {
 
-	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
-	private long id;
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private long id;
 
-	@Column(name = "SEQ")
-	private String seq;
+    @Column(name = "SEQ")
+    private String seq;
 
-	@Column(name = "SUB_TYPE_ID")
-	private SubsidiaryType subsidiaryType;
+    @Column(name = "SUB_TYPE_ID")
+    private SubsidiaryType subsidiaryType;
 
-	@OneToOne
-	@JoinColumn(name = "SUB_DISTRIBUTION_ID", nullable = false)
-	private SubsidiaryDistribution subsidiaryDistribution;
+    @Column(name = "BANK_NAME")
+    private String bankName;
 
-	@Column(name = "BANK_NAME")
-	private String bankName;
+    @Column(name = "BANK_BRANCH")
+    private String bankBranch;
 
-	@Column(name = "BANK_BRANCH")
-	private String bankBranch;
+    @Column(name = "CHEQUE_NO")
+    private String chequeNumber;
 
-	@Column(name = "CHEQUE_NO")
-	private String chequeNumber;
+    @Column(name = "PARTICULARS")
+    private String particulars;
 
-	@Column(name = "PARTICULARS")
-	private String particulars;
+    @Column(name = "AMOUNT")
+    private double amount;
 
-	@Column(name = "AMOUNT")
-	private double amount;
+    public long getId() {
+	return id;
+    }
 
-	public long getId() {
-		return id;
-	}
+    public void setId(long id) {
+	this.id = id;
+    }
 
-	public void setId(long id) {
-		this.id = id;
-	}
+    public String getSeq() {
+	return seq;
+    }
 
-	public String getSeq() {
-		return seq;
-	}
+    public void setSeq(String seq) {
+	this.seq = seq;
+    }
 
-	public void setSeq(String seq) {
-		this.seq = seq;
-	}
+    public SubsidiaryType getSubsidiaryType() {
+	return subsidiaryType;
+    }
 
-	public SubsidiaryType getSubsidiaryType() {
-		return subsidiaryType;
-	}
+    public void setSubsidiaryType(SubsidiaryType subsidiaryType) {
+	this.subsidiaryType = subsidiaryType;
+    }
 
-	public void setSubsidiaryType(SubsidiaryType subsidiaryType) {
-		this.subsidiaryType = subsidiaryType;
-	}
+    public String getBankName() {
+	return bankName;
+    }
 
-	public SubsidiaryDistribution getSubsidiaryDistribution() {
-		return subsidiaryDistribution;
-	}
+    public void setBankName(String bankName) {
+	this.bankName = bankName;
+    }
 
-	public void setSubsidiaryDistribution(SubsidiaryDistribution subsidiaryDistribution) {
-		this.subsidiaryDistribution = subsidiaryDistribution;
-	}
+    public String getBankBranch() {
+	return bankBranch;
+    }
 
-	public String getBankName() {
-		return bankName;
-	}
+    public void setBankBranch(String bankBranch) {
+	this.bankBranch = bankBranch;
+    }
 
-	public void setBankName(String bankName) {
-		this.bankName = bankName;
-	}
+    public String getChequeNumber() {
+	return chequeNumber;
+    }
 
-	public String getBankBranch() {
-		return bankBranch;
-	}
+    public void setChequeNumber(String chequeNumber) {
+	this.chequeNumber = chequeNumber;
+    }
 
-	public void setBankBranch(String bankBranch) {
-		this.bankBranch = bankBranch;
-	}
+    public String getParticulars() {
+	return particulars;
+    }
 
-	public String getChequeNumber() {
-		return chequeNumber;
-	}
+    public void setParticulars(String particulars) {
+	this.particulars = particulars;
+    }
 
-	public void setChequeNumber(String chequeNumber) {
-		this.chequeNumber = chequeNumber;
-	}
+    public double getAmount() {
+	return amount;
+    }
 
-	public String getParticulars() {
-		return particulars;
-	}
-
-	public void setParticulars(String particulars) {
-		this.particulars = particulars;
-	}
-
-	public double getAmount() {
-		return amount;
-	}
-
-	public void setAmount(double amount) {
-		this.amount = amount;
-	}
+    public void setAmount(double amount) {
+	this.amount = amount;
+    }
 
 }

@@ -12,12 +12,19 @@ import javax.persistence.Table;
 @SuppressWarnings("serial")
 @Entity
 @Table(name = "ASSET_BOOK")
-public class Asset implements Serializable {
+public class Asset
+	implements Serializable {
 
-	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
-	private long id;
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private long id;
 
-	@Column(name = "SEQ")
-	private String seq;
+    @Column(name = "SEQ")
+    private String seq;
+
+    private String assetCode;
+    private String description;
+    private String location;
+    private double acquisitionCost;
+
 }

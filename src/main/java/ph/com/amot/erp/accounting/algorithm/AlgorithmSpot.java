@@ -4,9 +4,6 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 import ph.com.amot.erp.accounting.enums.SequenceGroup;
 import ph.com.amot.erp.accounting.model.JournalEntry;
 import ph.com.amot.erp.accounting.model.dto.JournalEntryDto;
@@ -25,7 +22,6 @@ import ph.com.amot.erp.common.SequenceGenerator;
  */
 public abstract class AlgorithmSpot {
 
-    private static final Logger LOG = LoggerFactory.getLogger(AlgorithmSpot.class);
     private AccountingTemplate accountingTemplate;
     private AccountingTemplateAlgorithm algorithm;
     private JournalEntryDto journalDto;
@@ -51,7 +47,6 @@ public abstract class AlgorithmSpot {
     public void setAccountingTemplate(AccountingTemplate accountingTemplate) {
 	this.accountingTemplate = accountingTemplate;
 
-	LOG.info("******** isAccountEntryCreated *****" + isAccountEntryCreated);
 	if (!isAccountEntryCreated) {
 
 	    Set<AccountingTemplateDetail> templateDetails = accountingTemplate.getTemplateDetails();
@@ -65,7 +60,6 @@ public abstract class AlgorithmSpot {
 		journalEntry.setAmount(ERPConstants.ZERO_AMOUNT);
 		journalEntry.setTransaction(templateDetail.getTransaction());
 		journalEntries.add(journalEntry);
-		LOG.info("******** journalEntry *****" + journalEntry);
 	    }
 	    isAccountEntryCreated = Boolean.TRUE;
 	}

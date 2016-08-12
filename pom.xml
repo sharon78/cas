@@ -3,12 +3,11 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>ph.com.cas</groupId>
-	<artifactId>cas</artifactId>
+	<groupId>ph.com.erp</groupId>
+	<artifactId>erp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
-	<name>cas</name>
-	<description>core accounting system</description>
+	<name>erp</name>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -91,4 +90,6 @@
 	</build>
 
 
+	<packaging>war</packaging>
+	<description>enterprise resource planning software</description>
 </project>
